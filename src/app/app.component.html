@@ -1,0 +1,9 @@
+<!-- app.component.html -->
+
+<div class="app-container">
+  <h1>Welcome {{ username }}</h1>
+  <app-upload-form *ngIf="username"></app-upload-form>
+  <h1>Feeds</h1>
+  <app-file-list *ngIf="username"></app-file-list>
+</div>
+

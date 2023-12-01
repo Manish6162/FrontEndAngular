@@ -1,0 +1,7 @@
+<!-- file-list.component.html -->
+
+<div class="container">
+  <div *ngFor="let fileUrl of fileUrls" class="d-inline-block">
+    <img [src]="fileUrl" alt="Image" class="img-fluid" style="max-width: 200px; max-height: 200px;">
+  </div>
+</div>
